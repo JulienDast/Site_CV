@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c949821f.css",
+    "main.js": "/static/js/main.e7c4d2c5.js",
+    "static/media/Trox1.png": "/static/media/Trox1.ead358c28f68265c4ddb.png",
+    "static/media/Trox3.png": "/static/media/Trox3.9a42ce357f0a794e4ea2.png",
+    "static/media/Trox2.png": "/static/media/Trox2.6e370aad67a076ed1baa.png",
+    "static/media/Trox4.png": "/static/media/Trox4.e34cabdeb08f7e4b8472.png",
+    "static/media/ImgHome.png": "/static/media/ImgHome.e6d85152b18adea93f4f.png",
+    "static/media/CV_Julien_Dast.pdf": "/static/media/CV_Julien_Dast.a15f5aa6d9484a4c4308.pdf",
+    "static/media/Sportner.png": "/static/media/Sportner.614cc68bf903aaef3b30.png",
+    "static/media/ImgSkills.png": "/static/media/ImgSkills.b60482fa1e7095916ab4.png",
+    "index.html": "/index.html",
+    "main.c949821f.css.map": "/static/css/main.c949821f.css.map",
+    "main.e7c4d2c5.js.map": "/static/js/main.e7c4d2c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c949821f.css",
+    "static/js/main.e7c4d2c5.js"
+  ]
+}
