@@ -1,0 +1,75 @@
+.header {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  margin: 0; 
+  background-color: #fff; 
+  text-align: center;
+  margin-bottom: 0;
+  animation: color-change 10s infinite;
+  background: linear-gradient(-45deg,#ffa63d,#ff3d77,#338aff,#3cf0c5);
+}
+p{
+  padding: 0px;
+  text-align: center;
+  font-size: 15px;
+  margin: 5px;
+  font-weight: bolder;
+}
+.name h1{
+  margin-left: 50px;
+  color: #F2DC85;
+  font-size: 30px;
+  margin-top: 0;
+}
+.bandeau{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.bandeau .buttons{
+  position: relative;
+  margin-left: auto;
+  margin-top: 0;
+}
+.buttons i{
+  color: #fff;
+  position: relative;
+}
+.buttons i:hover {
+  color: #338aff;
+}
+.bandeau .buttons{
+  text-align: center;
+}
+.bandeau .buttons i{
+  padding: 30px 20px 20px 20px;
+}
+
+.text-box{
+  color: #fff;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .bandeau{
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .buttons, .name{
+    margin: auto;
+  }
+  .name h1{
+    margin: 0;
+  }
+  .fa-download{
+    padding-right: 0;
+  }
+}

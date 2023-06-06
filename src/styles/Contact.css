@@ -1,0 +1,67 @@
+.form-container{
+  background-color: #A5F3FC;
+  border: solid 4px #4D6469;
+  border-radius: 10px;
+}
+
+form, .form-container {
+  display: grid;
+  width: 50%;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: center;
+  color: #155E75;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.form-message{
+  margin-bottom: 15px;
+}
+.success, .error {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.success {
+  background: green;
+}
+.error {
+  background: red;
+}
+input, textarea{
+  height: 30px;
+  margin: 10px 5px;
+  background-color: #155E75;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  justify-content: center;
+}
+textarea{
+  height: 100px !important;
+  resize: none;
+  font-size: 18px !important;
+}
+
+#form .button:hover{
+  background-color: #2087a6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  input{
+    width: 290px;
+    margin: auto;
+  }
+  .success, .error {
+    width: 200px;
+  }
+}

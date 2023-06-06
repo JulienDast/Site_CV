@@ -1,0 +1,93 @@
+#projects{
+margin-bottom: 100px;
+}
+#projects h1{
+  color: white;
+  text-align: center;
+}
+
+#projects h2 a{
+  color: #fff;
+  text-decoration: none;
+}
+#projects h2 a:hover{
+  color: #338aff;
+}
+.portfolio{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.troxImg{
+  max-width: 600px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.project1 {
+  position: relative;
+  display: inline-block; 
+}
+
+.arrowG {
+  position: absolute;
+  left: 3%; 
+  top: 50%;
+  font-size: 24px;
+  color: #FF6347;
+  transform: translateY(50%);
+}
+.arrowD {
+  position: absolute;
+  right: 3%; 
+  top: 50%;
+  font-size: 24px;
+  color: #FF6347;
+  transform: translateY(50%); 
+}
+
+.arrowG:hover, .arrowD:hover{
+  color: #338aff;
+}
+.portfolio span{
+  cursor: pointer;
+}
+
+.sportnerImg{
+  width: 600px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+  .portfolio{
+    text-align: center;
+    display: block;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .portfolio{
+    text-align: center;
+    display: block;
+    justify-content: center;
+  }
+  .sportnerImg{
+    width: 400px;
+    height: 200px;
+  }
+  .troxImg{
+    max-width: 400px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .sportnerImg{
+    width: 320px;
+    height: 160px;
+  }
+  .troxImg{
+    max-width: 320px;
+    height: 160px;
+  }
+}
