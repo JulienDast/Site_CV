@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.c949821f.css",
-    "main.js": "/static/js/main.bb7b7e98.js",
+    "main.js": "/static/js/main.f5e856c2.js",
     "static/media/Trox1.png": "/static/media/Trox1.ead358c28f68265c4ddb.png",
     "static/media/Trox3.png": "/static/media/Trox3.9a42ce357f0a794e4ea2.png",
+    "static/media/sportner1.jpg": "/static/media/sportner1.50da47e612ca914938d8.jpg",
+    "static/media/sportner3.jpg": "/static/media/sportner3.701ee4ce287a50d801b6.jpg",
+    "static/media/sportner4.jpg": "/static/media/sportner4.219a1cc0a3ab7a438db5.jpg",
     "static/media/Trox2.png": "/static/media/Trox2.6e370aad67a076ed1baa.png",
+    "static/media/sportner2.jpg": "/static/media/sportner2.32aa3fb128a1dc8e7b7c.jpg",
     "static/media/Trox4.png": "/static/media/Trox4.e34cabdeb08f7e4b8472.png",
     "static/media/ImgHome.png": "/static/media/ImgHome.e6d85152b18adea93f4f.png",
     "static/media/CV_Julien_Dast.pdf": "/static/media/CV_Julien_Dast.fcdc9d0f186f4737f5c6.pdf",
-    "static/media/Sportner.png": "/static/media/Sportner.614cc68bf903aaef3b30.png",
     "static/media/ImgSkills.png": "/static/media/ImgSkills.b60482fa1e7095916ab4.png",
     "index.html": "/index.html",
     "main.c949821f.css.map": "/static/css/main.c949821f.css.map",
-    "main.bb7b7e98.js.map": "/static/js/main.bb7b7e98.js.map"
+    "main.f5e856c2.js.map": "/static/js/main.f5e856c2.js.map"
   },
   "entrypoints": [
     "static/css/main.c949821f.css",
-    "static/js/main.bb7b7e98.js"
+    "static/js/main.f5e856c2.js"
   ]
 }
