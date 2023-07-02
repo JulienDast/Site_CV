@@ -52,7 +52,7 @@ const Projects = () => {
       setSportnerImage(Sportner1);
     } else if (newSportnerNumber < 1) {
       setSportnerNumber(4);
-      setSportnerImage(Sportner1);
+      setSportnerImage(Sportner4);
     } else {
       setSportnerNumber(newSportnerNumber);
       switch (newSportnerNumber) {
