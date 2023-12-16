@@ -10,7 +10,7 @@ const Contact = () => {
     e.preventDefault();
     const formMess = document.querySelector(".form-message");
 
-    emailjs.sendForm('service_3fs5cnc', 'template_hsmdtv6', form.current, process.env.REACT_APP_API_KEY)
+    emailjs.sendForm('service_g7nfvmh', 'template_troazqi', form.current, process.env.REACT_APP_API_KEY)
       .then((result) => {
           console.log(result.text);
           form.current.reset();
@@ -36,9 +36,9 @@ const Contact = () => {
       <form ref={form} onSubmit={sendEmail}>
         <h3>Mon profil vous intéresse ? Contactez-moi !</h3>
         <label>Nom</label>
-        <input type="text" name="name" required autoComplete='off' />
+        <input type="text" name="from_name" required autoComplete='off' />
         <label>Email</label>
-        <input type="email" name="email" required autoComplete='off' />
+        <input type="email" name="from_email" required autoComplete='off' />
         <label>Message</label>
         <textarea name="message" required />
         <input className='button' type="submit" value="Envoyer" />
